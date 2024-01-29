@@ -48,6 +48,12 @@ This can be done by altering the `NUKE_VERSION` argument. By default it is `15.0
 }
 ```
 
+When you open the devcontainer in VSCode, you will be prompted with the environment you'd like to create. The options are: `linux`, `macos-x86` and `macos-arm`. This will be the environment where you'd build your plugins locally to.
+
+If you use the MacOS options, [make sure you’ve read and understood the Xcode license agreement](https://www.apple.com/legal/sla/docs/xcode.pdf).
+
+And by using the containers, you will also agree to the [Foundry EULA](https://www.foundry.com/eula).
+
 Also here is where you can specify additional extensions needed for your development environment. By default everything is included for C++ based development.
 
 If you need anything to be set-up additionally, you can alter the Dockerfiles that are in the same folder with instructions you do need. By default it installs `git`.
