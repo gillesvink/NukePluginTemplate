@@ -3,7 +3,7 @@
 This repository serves as a starting point for Nuke plugin development.
 It has everything set-up so you can start right away with developing (using dev containers).
 
-Additionally, it includes a [CI/CD](.github/workflows/build.yaml) pipeline for building Nuke plugins for both Windows and Linux.
+Additionally, it includes a [CI/CD](.github/workflows/build.yaml) pipeline for building Nuke plugins for Linux, MacOS and Windows.
 
 Just [fork](https://github.com/gillesvink/NukePluginTemplate/fork), clone or [download](https://github.com/gillesvink/NukePluginTemplate/archive/refs/heads/main.zip) and start :)
 
