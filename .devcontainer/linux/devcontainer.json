@@ -1,5 +1,10 @@
 {
-  "image": "nukedockerbuild:latest",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "NUKE_VERSION": "15.0"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
