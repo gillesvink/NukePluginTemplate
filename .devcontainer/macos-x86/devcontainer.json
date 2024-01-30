@@ -2,7 +2,7 @@
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
-      "NUKE_VERSION": "14.0"
+      "NUKE_VERSION": "15.0"
     }
   },
   "customizations": {
